@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B3FEBE724FD522100235D35 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3FEBE624FD522100235D35 /* NetworkManager.swift */; };
 		6B55129124FCDB0700CE4CFD /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B55129024FCDB0700CE4CFD /* Movies.swift */; };
 		6B55129424FCDD2A00CE4CFD /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B55129324FCDD2A00CE4CFD /* Api.swift */; };
 		6B583BB524FCBBB80022039D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B583BB424FCBBB80022039D /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B3FEBE624FD522100235D35 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		6B55129024FCDB0700CE4CFD /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		6B55129324FCDD2A00CE4CFD /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		6B583BB124FCBBB80022039D /* Movie List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B3FEBE524FD516300235D35 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6B3FEBE624FD522100235D35 /* NetworkManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		6B55128D24FCD8C700CE4CFD /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 				6B55128E24FCD8CD00CE4CFD /* View */,
 				6B55128F24FCD8DA00CE4CFD /* ViewModel */,
 				6B55129224FCDD1600CE4CFD /* Network */,
+				6B3FEBE524FD516300235D35 /* Service */,
 				6B583BB424FCBBB80022039D /* AppDelegate.swift */,
 				6B583BB624FCBBB80022039D /* SceneDelegate.swift */,
 				6B583BBA24FCBBB90022039D /* Assets.xcassets */,
@@ -184,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B3FEBE724FD522100235D35 /* NetworkManager.swift in Sources */,
 				6B583BB524FCBBB80022039D /* AppDelegate.swift in Sources */,
 				6B583BB724FCBBB80022039D /* SceneDelegate.swift in Sources */,
 				6B55129124FCDB0700CE4CFD /* Movies.swift in Sources */,
