@@ -20,6 +20,6 @@ struct MoviesViewModel {
     }
     
     var poster_path: String {
-        return movies.poster_path ?? "https://p.kindpng.com/picc/s/182-1827064_breaking-news-banner-png-transparent-background-breaking-news.png"
+        return movies.poster_path ?? "https://image.tmdb.org/t/p/w500/TnOeov4w0sTtV2gqICqIxVi74V.jpg"
     }
 }

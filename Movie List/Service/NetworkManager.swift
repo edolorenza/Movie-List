@@ -12,8 +12,10 @@ class NetworkManager {
     private let baseUrlString = "https://api.themoviedb.org/3/movie/popular?"
     private let  language = "language=en-US"
     
+   
+    
     func getMovies(completion: @escaping(([Movies]?) -> Void)) {
-        let urlString = "\(baseUrlString)\(language)&apikey=\(API.key)"
+        let urlString = "\(baseUrlString)\(language)&api_key=\(API.key)"
         
         guard let url = URL(string: urlString) else {
             completion(nil)

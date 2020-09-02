@@ -12,15 +12,14 @@ struct MoviesListHeader: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             HStack {
-                Image(systemName: "largecircle.fill.circle")
-                Text("News").bold()
-                Image(systemName : "plus")
+//                Image(systemName: "largecircle.fill.circle")
+                Text("Movies List").bold()
                 Spacer()
             }
             .foregroundColor(.black)
             .font(.largeTitle)
             
-            Text("Top Headlines")
+            Text("Popular Movies")
                 .foregroundColor(.gray)
                 .font(.largeTitle)
         }.padding(.horizontal)

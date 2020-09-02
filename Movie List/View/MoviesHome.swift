@@ -17,6 +17,7 @@ struct MoviesHome: View {
     var body: some View {
         VStack{
             MoviesListHeader()
+            MoviesListView(moviesCollection: self.moviesListVM.movies, imageData: self.moviesListVM.imageData)
         }
     }
 }
