@@ -12,14 +12,22 @@ struct MoviesViewModel {
     let movies: Movies
     
     var title: String {
-        return movies.title ?? "unknown"
+        return movies.title
     }
     
     var overview: String {
-        return movies.overview ?? " "
+        return movies.overview
     }
     
     var poster_path: String {
-        return movies.poster_path ?? "https://image.tmdb.org/t/p/w500/TnOeov4w0sTtV2gqICqIxVi74V.jpg"
+        return movies.posterPath
+    }
+    
+    var voteAverage: Double{
+        return movies.voteAverage
+    }
+    
+    var releaseDate: Date {
+        return movies.releaseDate
     }
 }

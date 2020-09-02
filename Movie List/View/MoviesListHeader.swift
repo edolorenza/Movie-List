@@ -12,7 +12,6 @@ struct MoviesListHeader: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             HStack {
-//                Image(systemName: "largecircle.fill.circle")
                 Text("Movies List").bold()
                 Spacer()
             }

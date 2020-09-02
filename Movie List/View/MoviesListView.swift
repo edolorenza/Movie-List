@@ -13,6 +13,7 @@ struct MoviesListView: View {
     let imageData: [String: Data]
     
     var body: some View {
+        
         List(self.moviesCollection, id: \.title) {
             movies in
             MoviesCell(movies: movies, image: Image(uiImage: self.imageData[movies.poster_path] == nil ? UIImage(systemName: "doc.append")! : UIImage(data:self.imageData[movies.poster_path]!)!))
@@ -21,8 +22,3 @@ struct MoviesListView: View {
     }
 }
 
-//struct MoviesListView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MoviesListView()
-//    }
-//}

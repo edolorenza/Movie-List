@@ -92,12 +92,12 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		6B55129224FCDD1600CE4CFD /* Network */ = {
+		6B55129224FCDD1600CE4CFD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				6B55129324FCDD2A00CE4CFD /* Api.swift */,
 			);
-			path = Network;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		6B583BA824FCBBB80022039D = {
@@ -122,7 +122,7 @@
 				6B55128D24FCD8C700CE4CFD /* Model */,
 				6B55128E24FCD8CD00CE4CFD /* View */,
 				6B55128F24FCD8DA00CE4CFD /* ViewModel */,
-				6B55129224FCDD1600CE4CFD /* Network */,
+				6B55129224FCDD1600CE4CFD /* Utils */,
 				6B3FEBE524FD516300235D35 /* Service */,
 				6B583BB424FCBBB80022039D /* AppDelegate.swift */,
 				6B583BB624FCBBB80022039D /* SceneDelegate.swift */,

@@ -31,6 +31,7 @@ class NetworkManager {
             moviesResult == nil ? completion(nil) : completion (moviesResult!.results)
         }.resume()
     }
+    
     func getImage(urlString: String, completion: @escaping (Data?) -> Void) {
         guard let url = URL(string: urlString) else {
             completion(nil)
