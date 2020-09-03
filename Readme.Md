@@ -12,7 +12,7 @@ Model-View-ViewModel (MVVM). MVVM is an architecture that focuses on the separat
 
 * Using SwiftUI
 * Implement mvvm architecture 
-* Using [Themoviedb.org]("https://api.themoviedb.org/) API to get popular movies
+* Using [Themoviedb.org](https://api.themoviedb.org/) API to get popular movies
 * Using ObservableObject protocol
 * Display data to the user based on the view model
 
@@ -32,7 +32,7 @@ struct API {
 
 ## Further Reading
 
-[Data Binding in MVVM on iOS]("https://medium.com/flawless-app-stories/data-binding-in-mvvm-on-ios-714eb15e3913") <br>
-[Observable object]("https://www.hackingwithswift.com/quick-◊start/swiftui/observable-objects-environment-objects-and-published") <br>
-[MVVM playlist tutorial]("https://www.youtube.com/playlist?list=PLbrKvTeCrFAf3BBqfGR9B9C5XXAVa6D4r")<br>
-[URL Image SwiftUI View]("https://medium.com/@bradysmurphy/day-14-image-loader-bf0a383f09da")
+[Data Binding in MVVM on iOS](https://medium.com/flawless-app-stories/data-binding-in-mvvm-on-ios-714eb15e3913) <br>
+[Observable object](https://www.hackingwithswift.com/quick-◊start/swiftui/observable-objects-environment-objects-and-published) <br>
+[MVVM playlist tutorial](https://www.youtube.com/playlist?list=PLbrKvTeCrFAf3BBqfGR9B9C5XXAVa6D4r)<br>
+[URL Image SwiftUI View](https://medium.com/@bradysmurphy/day-14-image-loader-bf0a383f09da)
