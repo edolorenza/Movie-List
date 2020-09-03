@@ -12,7 +12,7 @@ struct MoviesListHeader: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             HStack {
-                Text("Movies List").bold()
+                Text("Movie List").bold()
                 Spacer()
             }
             .foregroundColor(.black)

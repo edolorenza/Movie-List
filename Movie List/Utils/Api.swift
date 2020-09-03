@@ -9,7 +9,7 @@
 import Foundation
 
 struct API {
-    static let key = "dea6d5ed2822c14b8343dc1e5babc6c4"
+    static let key = "ENTER_YOUR_KEY_HERE"
 }
  
 
